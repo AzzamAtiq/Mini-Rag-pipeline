@@ -1,0 +1,12 @@
+# Mini-RAG Pipeline – Python dependencies
+# Install: pip install -r requirements.txt
+
+# LLM integration (optional – pipeline falls back gracefully without API key)
+anthropic>=0.25.0
+
+# REST API (optional – only needed for `make api`)
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# No vector-DB or ML libraries required.
+# TF-IDF retrieval is implemented from scratch using the standard library.

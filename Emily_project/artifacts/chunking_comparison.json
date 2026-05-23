@@ -1,0 +1,24 @@
+{
+  "strategies": {
+    "sentence": {
+      "num_chunks": 19,
+      "avg_chunk_chars": 69.9,
+      "top3_hit_rate": 1.0,
+      "hits": 5,
+      "partial_hits": 0,
+      "misses": 0,
+      "total_queries": 5
+    },
+    "fixed_180": {
+      "num_chunks": 10,
+      "avg_chunk_chars": 149.7,
+      "top3_hit_rate": 1.0,
+      "hits": 5,
+      "partial_hits": 0,
+      "misses": 0,
+      "total_queries": 5
+    }
+  },
+  "best_strategy": "sentence",
+  "tradeoff_analysis": "Sentence-level chunking preserves complete atomic facts, so each retrieved chunk maps cleanly to a single answer point — ideal for narrow fact-lookup queries. Fixed-size chunking may split a sentence across two chunks, degrading TF-IDF signal and potentially returning a partial fact. However, fixed-size chunks can capture more context per chunk for longer, multi-sentence questions, improving recall at the expense of precision. For this knowledge base (short, assertion-dense articles) sentence chunking typically wins on top-3 hit rate."
+}

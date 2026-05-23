@@ -1,0 +1,57 @@
+[
+  {
+    "query_id": "Q1",
+    "answer_label": "grounded_answer",
+    "answer": "Bank withdrawals may take 1 to 3 business days after approval. [Cash withdrawal processing §chunk_7]",
+    "citations": [
+      "[Cash withdrawal processing §chunk_7]"
+    ],
+    "used_chunk_ids": [
+      "chunk_7"
+    ]
+  },
+  {
+    "query_id": "Q2",
+    "answer_label": "grounded_answer",
+    "answer": "If an account is under compliance review, withdrawals remain pending until the review is completed. [Cash withdrawal processing §chunk_9]",
+    "citations": [
+      "[Cash withdrawal processing §chunk_9]"
+    ],
+    "used_chunk_ids": [
+      "chunk_9"
+    ]
+  },
+  {
+    "query_id": "Q3",
+    "answer_label": "grounded_answer",
+    "answer": "If a user forgets their password, they can request a reset email from the login page. [Password reset and account recovery §chunk_1]",
+    "citations": [
+      "[Password reset and account recovery §chunk_1]"
+    ],
+    "used_chunk_ids": [
+      "chunk_1"
+    ]
+  },
+  {
+    "query_id": "Q4",
+    "answer_label": "grounded_answer",
+    "answer": "Proof of address documents must show the user's full name, address, and issue date. [Document verification requirements §chunk_12]",
+    "citations": [
+      "[Document verification requirements §chunk_12]"
+    ],
+    "used_chunk_ids": [
+      "chunk_12"
+    ]
+  },
+  {
+    "query_id": "Q5",
+    "answer_label": "grounded_answer",
+    "answer": "Demo profit cannot be withdrawn. [Demo account behaviour §chunk_18]",
+    "citations": [
+      "[Demo account behaviour §chunk_18]"
+    ],
+    "used_chunk_ids": [
+      "chunk_18"
+    ]
+  }
+]

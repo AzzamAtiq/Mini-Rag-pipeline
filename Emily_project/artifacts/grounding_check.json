@@ -1,0 +1,151 @@
+[
+  {
+    "query_id": "Q1",
+    "answer_label": "grounded_answer",
+    "citation_checks": [
+      {
+        "citation": "[Cash withdrawal processing §chunk_7]",
+        "chunk_id": "chunk_7",
+        "valid": true,
+        "chunk_in_retrieval": true,
+        "keyword_overlap": [
+          "after",
+          "approval",
+          "bank",
+          "business",
+          "days",
+          "may",
+          "take",
+          "to",
+          "withdrawals"
+        ],
+        "overlap_count": 9,
+        "supported": true,
+        "reason": "ok"
+      }
+    ],
+    "issues": [],
+    "grounding_ok": true
+  },
+  {
+    "query_id": "Q2",
+    "answer_label": "grounded_answer",
+    "citation_checks": [
+      {
+        "citation": "[Cash withdrawal processing §chunk_9]",
+        "chunk_id": "chunk_9",
+        "valid": true,
+        "chunk_in_retrieval": true,
+        "keyword_overlap": [
+          "account",
+          "an",
+          "completed",
+          "compliance",
+          "if",
+          "is",
+          "pending",
+          "remain",
+          "review",
+          "the",
+          "under",
+          "until",
+          "withdrawals"
+        ],
+        "overlap_count": 13,
+        "supported": true,
+        "reason": "ok"
+      }
+    ],
+    "issues": [],
+    "grounding_ok": true
+  },
+  {
+    "query_id": "Q3",
+    "answer_label": "grounded_answer",
+    "citation_checks": [
+      {
+        "citation": "[Password reset and account recovery §chunk_1]",
+        "chunk_id": "chunk_1",
+        "valid": true,
+        "chunk_in_retrieval": true,
+        "keyword_overlap": [
+          "can",
+          "email",
+          "forgets",
+          "from",
+          "if",
+          "login",
+          "page",
+          "password",
+          "request",
+          "reset",
+          "the",
+          "their",
+          "they",
+          "user"
+        ],
+        "overlap_count": 14,
+        "supported": true,
+        "reason": "ok"
+      }
+    ],
+    "issues": [],
+    "grounding_ok": true
+  },
+  {
+    "query_id": "Q4",
+    "answer_label": "grounded_answer",
+    "citation_checks": [
+      {
+        "citation": "[Document verification requirements §chunk_12]",
+        "chunk_id": "chunk_12",
+        "valid": true,
+        "chunk_in_retrieval": true,
+        "keyword_overlap": [
+          "address",
+          "and",
+          "date",
+          "documents",
+          "full",
+          "issue",
+          "must",
+          "name",
+          "of",
+          "proof",
+          "show",
+          "the",
+          "user"
+        ],
+        "overlap_count": 13,
+        "supported": true,
+        "reason": "ok"
+      }
+    ],
+    "issues": [],
+    "grounding_ok": true
+  },
+  {
+    "query_id": "Q5",
+    "answer_label": "grounded_answer",
+    "citation_checks": [
+      {
+        "citation": "[Demo account behaviour §chunk_18]",
+        "chunk_id": "chunk_18",
+        "valid": true,
+        "chunk_in_retrieval": true,
+        "keyword_overlap": [
+          "be",
+          "cannot",
+          "demo",
+          "profit",
+          "withdrawn"
+        ],
+        "overlap_count": 5,
+        "supported": true,
+        "reason": "ok"
+      }
+    ],
+    "issues": [],
+    "grounding_ok": true
+  }
+]
